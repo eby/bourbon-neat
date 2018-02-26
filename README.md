@@ -1,12 +1,6 @@
-# A Boilerplate repo for presets
+# Bourbon and Neat preset for Laravel
 
 This package makes it easy to use [bourbon](https://www.bourbon.io/) and [neat](https://neat.bourbon.io/) with Laravel 5.5+.
-
-**Note:** Make sure you replace all the instances of the word ```skeleton``` or ```Skeleton``` on this file, the `composer.json` file and on the `src/` folder, and to rename the files. You can delete this line after.
-
-This is where your description should go. Add a little code example so build can understand real quick how the package can be used. Try and limit it to a paragraph or two.
-
-
 
 ## Contents
 
