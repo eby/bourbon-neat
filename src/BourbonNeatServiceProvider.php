@@ -1,5 +1,5 @@
 <?php
-namespace BourbonNeatPresets\BourbonNeatPreset;
+namespace LaravelFrontendPresets\BourbonNeatPreset;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
