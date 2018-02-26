@@ -1,10 +1,10 @@
 <?php
-namespace LaravelFrontendPresets\SkeletonPreset;
+namespace BourbonNeatPresets\BourbonNeatPreset;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
 
-class SkeletonPresetServiceProvider extends ServiceProvider
+class BourbonNeatPresetServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -13,15 +13,9 @@ class SkeletonPresetServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        PresetCommand::macro('skeleton', function ($command) {
-            SkeletonPreset::install(false);
-            $command->info('Skeleton scaffolding installed successfully.');
-            $command->comment('Please run "npm install && npm run dev" to compile your fresh scaffolding.');
-        });
-
-        PresetCommand::macro('skeleton-auth', function ($command) { //optional
-            SkeletonPreset::install(true);
-            $command->info('Skeleton scaffolding with Auth views installed successfully.');
+        PresetCommand::macro('bourbon-neat', function ($command) {
+            BourbonNeatPreset::install(false);
+            $command->info('Bourbon and Neat scaffolding installed successfully.');
             $command->comment('Please run "npm install && npm run dev" to compile your fresh scaffolding.');
         });
     }
