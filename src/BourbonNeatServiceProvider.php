@@ -4,7 +4,7 @@ namespace BourbonNeatPresets\BourbonNeatPreset;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
 
-class BourbonNeatPresetServiceProvider extends ServiceProvider
+class BourbonNeatServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
